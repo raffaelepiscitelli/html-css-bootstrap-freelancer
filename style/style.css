@@ -1,9 +1,14 @@
-header {
-    background-color: rgb(26, 188, 156);
+.navbar-brand {
+    color: white;
 }
+
 
 #my-avatar {
     width: 50%;
+}
+
+.bg-green {
+    background-color: rgb(26, 188, 156);
 }
 
 .my-jumbo {
@@ -15,33 +20,96 @@ h1 {
     font-weight: 600;
 }
 
-#portfolio h2 {
+.star i {
     font-size: 1.5rem;
+}
+
+.border-star {
+    border-bottom: 3px solid white;
+    display: inline-block;
+    width: 4.5rem;
+    vertical-align: super;
+    border-radius: 5%;
+}
+
+#portfolio h2,
+#contact-me h2 {
+    font-size: 1.6rem;
     font-weight: 600;
     color: rgb(44, 62, 80);
-    text-align: center;
+}
+
+.border-star-dark {
+    border-bottom: 3px solid rgb(44, 62, 80);
+
 }
 
 .article-portfolio img {
     width: 100%;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.8rem;
 }
 
-#about {
+#about,
+footer {
     color: white;
 }
 
-.bg-green {
-    background-color: rgb(26, 188, 156);
+.container-about,
+.container-contact-me {
+    width: 65%;
 }
 
 #about h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 600;
-    text-align: center;
 }
 
-.col-12 p {
-    padding: 0 5rem;
+.my-button {
+    width: fit-content;
+    color: white;
+}
+
+div.col:last-child .form-control {
+    padding-bottom: 6rem;
+}
+
+.bg-grey {
+    background-color: rgb(58, 84, 109);
+}
+
+.up-footer {
+    font-size: 0.9rem;
+}
+
+.bottom-footer {
+    font-size: 0.8rem;
+}
+
+.bg-dark-grey {
+    background-color: rgb(44, 62, 80);
+}
+
+@media screen and (min-width: 576px) {
+    
+    .container-portfolio {
+        width: 85%;
+    }
+
+    .container-about,
+    .container-contact-me {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    
+    .container-portfolio {
+        width: 75%;
+    }
+
+    .container-about,
+    .container-contact-me {
+        width: 70%;
+    }
 }
 
