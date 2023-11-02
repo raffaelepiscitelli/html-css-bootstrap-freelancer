@@ -2,6 +2,46 @@ header {
     background-color: rgb(26, 188, 156);
 }
 
-.my-jumbo {
-    
+#my-avatar {
+    width: 50%;
 }
+
+.my-jumbo {
+    color: white;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#portfolio h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(44, 62, 80);
+    text-align: center;
+}
+
+.article-portfolio img {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+#about {
+    color: white;
+}
+
+.bg-green {
+    background-color: rgb(26, 188, 156);
+}
+
+#about h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.col-12 p {
+    padding: 0 5rem;
+}
+
